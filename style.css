@@ -4,12 +4,14 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: rgb(50, 119, 248);
-    display: flex;
-}
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        background-image: url(https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--859d7ffa-751b-4ca5-a636-4d83642b2c32/_330838956259.app.png?preferwebp=true);
+        display: flex;
+        background-size: cover;
+    }
+
 .board{
     height: 480px;
     width: 460px;
@@ -76,7 +78,7 @@ body {
 .card {
     height: 100px;
     width: 91px;
-    background-color: rgb(50, 119, 248, 0.651);
+    background-color: rgba(80, 110, 243, 0.651);
     border-radius: 10px;
     margin: 0px 10px;
     position: relative;
